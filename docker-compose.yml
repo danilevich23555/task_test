@@ -1,0 +1,17 @@
+version: '3.10'
+
+
+services:
+  nginx:
+   depends_on:
+     - backend
+   image: nginx
+   ports:
+     - '80:80'
+   volumes:
+     - ./nginx.conf:/etc/nginx/conf.d/dfault.conf
+  backend:
+    build: .
+    image: new_python
+    ports:
+      - '8000:8000'

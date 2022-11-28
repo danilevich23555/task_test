@@ -1,0 +1,17 @@
+asgiref
+certifi
+charset-normalizer
+click
+Django
+django-filter
+djangorestframework
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+requests
+sqlparse
+stripe
+urllib3
+Werkzeug
+python-decouple
